@@ -68,7 +68,7 @@ button:focus {
     font-size: 1.1em;
     padding: 20px;
     background-color: whitesmoke;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 #buttons {
@@ -95,4 +95,36 @@ button:focus {
     padding: 30px;
     color: #c97683;
     font-size: 1.4em;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 575px) {
+    #container, #instructions {
+        width: 100%;
+    }
+    
+    #instructions {
+        border-radius: 0; 
+        padding-left: 0;
+        border-top: 2px solid;
+        border-bottom: 2px solid; 
+    }
+    
+    #instructions p {
+        padding: 10px 50px;
+        font-size: 1.1em;
+    }
+    
+    h1 {
+        font-size: 2.2em;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
 }
