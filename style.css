@@ -104,7 +104,7 @@ button:focus {
 }
 
 @media (max-width: 575px) {
-    #container, #instructions {
+    #container, #instructions, #header {
         width: 100%;
     }
     
